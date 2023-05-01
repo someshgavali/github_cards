@@ -1,0 +1,32 @@
+.cardContainer {
+  height: 35vh;
+  width: 20vw;
+  background-color: transparent;
+  box-shadow: 0 0 30px #fff;
+  border-radius: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.cardContainer > img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+.cardContainer > p {
+  font-size: 30px;
+  font-weight: 500;
+}
+.cardContainer > a {
+  padding: 10px 20px;
+  color: white;
+  background-color: purple;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+  text-decoration: none;
+}
